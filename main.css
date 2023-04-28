@@ -1,0 +1,49 @@
+body{
+
+background-color: blanchedalmond;
+
+}
+
+
+h1{
+
+
+}
+
+form{
+
+
+
+}
+
+.script{
+color: rgb(83, 66, 8);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+flex-wrap: wrap;
+
+
+
+}
+
+.identity{
+
+background-color: rgb(230, 170, 96);
+    
+}
+
+.localisation{
+
+background-color: rgb(197, 166, 124);
+ 
+
+}
+
+
+.passeport{
+    
+   background-color: rgb(185, 123, 7);
+
+
+}
+

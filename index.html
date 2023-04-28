@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Inscription</h1>
+    <form>
+        
+        <fieldset class="script">
+
+
+        <fieldset class="identity">
+
+        <div> <i class="fa-solid fa-user"></i> Nom:<br><input type="text" placeholder="Veuillez indiquer votre nom"></div>
+        <div> <i class="fa-solid fa-user"></i> Prenom:<br><input type="text"></div>
+        <div> <i class="fa-solid fa-calendar-days"></i> Date de naissance:<br><input type="date"></div> 
+        <div> <i class="fa-solid fa-venus-mars"></i> Sexe:<br>
+            <label for="Sexe"> Masculin </label><input type="radio" name="Sexe">
+            <label for="Sexe"> Feminin </label><input type="radio" name="Sexe">
+            <label for="Sexe"> Neutre </label><input type="radio" name="Sexe"></div>
+        <div> <input type="color">
+
+
+        </div>
+
+
+        </fieldset>
+        
+        
+        <fieldset class="contact">
+            
+            <div>Numéro de sécurité social: <br><input type="text" pattern="[0-9]"></div>
+        <div> <i class="fa-solid fa-at"></i> Adresse mail:<br><input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></div>
+        <div> <i class="fa-sharp fa-solid fa-building"></i> Adresse postal:<br><input type="text"></div>
+        <div> <i class="fa-sharp fa-solid fa-location-pin"></i> Code postal:<br><input type="text"required maxlength="5"></div>
+        <div> <i class="fa-solid fa-map-location-dot"></i> Ville:<br><input type="text"></div>
+
+        </fieldset>
+        
+        <fieldset class="localisation">
+
+        
+
+        <i class="fa-sharp fa-regular fa-flag"></i>  Nationalité:<br>
+            <label for="nation-select"></label>
+            <select name="nation" id="pet-select">
+                <option value="">--Please choose an option--</option>
+                <option value="france">Française</option>
+                <option value="espagne">Espagnol</option>
+                <option value="italie" selected>Italienne</option>
+                <option value="portugal">Portugaise</option>
+                <option value="suisse">Suisse</option>
+                <option value="grece">Grecque</option>
+            </select>
+        
+        <div> <i class="fa-solid fa-globe"></i> Pays de naissance:<br><input type="text" pattern="[a-z]"></div>
+
+        
+    
+        </fieldset>
+
+
+        <fieldset class="passeport">
+
+        <div><label> <i class="fa-solid fa-passport"></i> Numero du passeport:<br><input type="text" pattern="[0-9]" required maxlength="10"></label></div>
+        <div> <i class="fa-solid fa-calendar-days"></i> Date de delivrance du passeport:<br><input type="date"></div>
+        <div> <i class="fa-solid fa-calendar-days"></i> Date de validité du passeport:<br><input type="date"></div>
+        <div> <i class="fa-solid fa-briefcase"></i> Metier exercé:<br>
+            <label for="Metier"> Salarié</label><input type="radio" id="Salarié" name="Metier"> 
+            <label for="Metier"> Chomeur</label><input type="radio" id="Chomeur" name="Metier"> 
+            <label for="Metier"> Entrepreneur</label><input type="radio" id="Entrepreneur" name="Metier"> 
+            <label for="Metier"> Retraité</label><input type="radio" id="Retraité" name="Metier">
+        </div>
+        </fieldset>
+
+
+
+
+        </fieldset>
+
+
+        
+<label for="check"><input type="submit" value="Envoie la sauce">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+</body>
+</html>
